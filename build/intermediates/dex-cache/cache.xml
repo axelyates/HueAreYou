@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\ayates2\AndroidStudioProjects\HueAreYou\app\libs\huelocalsdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="07362e192094e402e032db4407c86e36080340ab">
+        <dex dex="C:\Users\ayates2\AndroidStudioProjects\HueAreYou\app\build\intermediates\transforms\dex\debug\folders\1000\2\huelocalsdk_77a8b837cdc59e2bb04df7df149454348f875a7e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ayates2\AndroidStudioProjects\HueAreYou\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f872bc0f06192dd3a6644b616973a07bc6792c8d">
+        <dex dex="C:\Users\ayates2\AndroidStudioProjects\HueAreYou\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a644a28b4d7edddbfde475f1b9020b1705e80fba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ayates2\AndroidStudioProjects\HueAreYou\app\libs\huesdkresources.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7183fbb86900448556ef87d3af0db01a77c27a09">
+        <dex dex="C:\Users\ayates2\AndroidStudioProjects\HueAreYou\app\build\intermediates\transforms\dex\debug\folders\1000\2\huesdkresources_55def6a4e8c159975e5b0d930c2c5ce2a5b968b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ayates2\AndroidStudioProjects\HueAreYou\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\ayates2\AndroidStudioProjects\HueAreYou\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1b99024bad2be4f565ec1dbc9be011e524cdbf54\classes.dex" />
+    </item>
+
+</items>
