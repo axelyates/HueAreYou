@@ -41,7 +41,6 @@ public class RandomColorButton extends AppCompatActivity {
                 randomLights();
             }
         });
-        OnClickButtonListener();
     }
 
     public void randomLights(){
@@ -94,18 +93,4 @@ public class RandomColorButton extends AppCompatActivity {
             super.onDestroy();
         }
     }
-    public void OnClickButtonListener(){
-        lets_go_button = (Button)findViewById(R.id.lets_get_started_button);
-        lets_go_button.setOnClickListener(
-                new View.OnClickListener(){
-                    @Override
-                    public void onClick(View v){
-                        Intent i = new Intent("com.example.ayates2.hueareyou.PHWizardAlertDialog");
-                        startActivity(i);
-                    }
-                }
-        );
-    }
-
-
 }

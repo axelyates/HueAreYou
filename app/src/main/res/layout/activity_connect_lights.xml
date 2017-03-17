@@ -13,7 +13,7 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/hue_light_bulb_picture"
+        android:contentDescription="@string/hue_light_bulb"
         app:srcCompat="@drawable/hue_light_bulb"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"

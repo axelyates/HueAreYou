@@ -15,7 +15,6 @@ public final class PHWizardAlertDialog{
     private static PHWizardAlertDialog dialogs;
 
     private PHWizardAlertDialog(){
-
     }
 
     public static synchronized PHWizardAlertDialog getInstance(){

@@ -2,6 +2,9 @@ package com.example.ayates2.hueareyou;
 
 import java.util.List;
 
+import android.content.res.ColorStateList;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.app.Activity;
@@ -37,6 +40,7 @@ public class PHPushlinkActivity extends AppCompatActivity {
 
         pbar = (ProgressBar) findViewById(R.id.countdownPB);
         pbar.setMax(MAX_TIME);
+        pbar.getProgressDrawable().setColorFilter(Color.BLUE, PorterDuff.Mode.MULTIPLY);
 
         phHueSDK.getNotificationManager().registerSDKListener(listener);
     }
