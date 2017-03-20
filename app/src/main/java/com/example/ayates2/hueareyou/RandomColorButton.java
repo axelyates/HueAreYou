@@ -55,7 +55,7 @@ public class RandomColorButton extends AppCompatActivity {
 
             //to validate your lightstate is valid (before sending to bridge you can use:
             //String validState = lightState.validateState();
-            //bridge.updateLightState(light, lightState, listener);
+            bridge.updateLightState(light, lightState, listener);
             //bridge.updateLightState(light, lightState);
         }
     }

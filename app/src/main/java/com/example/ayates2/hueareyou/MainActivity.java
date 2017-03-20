@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
                         //put logic (here?) where if button is clicked and no hue bridge is known,
                         //it goes to connect lights, but if there is already a bridge, then app
                         //goes directly to modifying lights.
-                        Intent i = new Intent("com.example.ayates2.hueareyou.ConnectLights");
+                        Intent i = new Intent("com.example.ayates2.hueareyou.PHHomeActivity");
                         startActivity(i);
                     }
                 }

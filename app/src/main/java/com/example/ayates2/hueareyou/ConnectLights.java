@@ -23,10 +23,13 @@ public class ConnectLights extends AppCompatActivity{
             new View.OnClickListener(){
                 @Override
                 public void onClick(View v){
-                    //this needs to connect to the service where the app
-                    //talks to the bridge and connects to the lights.
-                    //put logic here where "if there is no known bridge, it makes user
-                    //activate pushlink action and connect bridge, but if there is one,
+                    /*
+                     * this needs to connect to the service where the app
+                     * talks to the bridge and connects to the lights.
+                     * put logic here where "if there is no known bridge, it makes user
+                     * activate pushlink action and connect bridge, but if there is one, go straight
+                     * to the lights to control them.
+                     */
                     Intent i = new Intent("com.example.ayates2.hueareyou.PHPushlinkActivity");
                     startActivity(i);
                 }
