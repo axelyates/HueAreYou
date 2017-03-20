@@ -19,10 +19,6 @@ import com.philips.lighting.hue.sdk.PHSDKListener;
 import com.philips.lighting.model.PHBridge;
 import com.philips.lighting.model.PHHueParsingError;
 
-
-
-
-
 public class PHPushlinkActivity extends AppCompatActivity {
 
     private ProgressBar pbar;
